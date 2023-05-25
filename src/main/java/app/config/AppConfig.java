@@ -13,6 +13,7 @@ public class AppConfig {
     public Dog dog() {
         return new Dog();
     }
+
     @Bean
     public Timer timer() {
         return new Timer();
